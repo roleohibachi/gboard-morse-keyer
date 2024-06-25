@@ -13,6 +13,6 @@ This code runs on a arduino-compatible 32u4 board, monitors one or two electrica
 
 I use my iambic key for actual CW, so I used a TRS jack to make the connection. The sleeve is ground, the tip is the "dit" switch, and the sleeve is the "dah".
 
-You'll need a "USB OTG Cable" or USB Hub for your phone, as well as a USB-A/USB-microB cable to connect to the emulator. Or you can get a specialty cable that connects your phone (probably USB-C) to your microcontroller (mine's USB-microB but yours could be miniB or even USB-C)
+You'll need a "USB OTG Cable" or USB Hub for your phone, as well as a USB-A/USB-microB cable to connect to the emulator. Or you can get a specialty cable that connects your phone (probably USB-C) to your microcontroller (mine's USB-microB but yours could be miniB or even USB-C). You don't need a powered hub because the board uses <10mA at all times, but you might like a cable with the charge-through feature, so you can charge your phone at the same time.
 
 Note that key repeat speed is configured in GBoard settings. I don't think audio feedback is available in software, but it can't be added in hardware without syncing key repeat speed with the software. 
