@@ -1,6 +1,8 @@
 # gboard-morse-keyer
 Use a standard CW iambic key with Google Gboard Morse code input method.
 
+![A photo of the wiring](photo.jpg)
+
 ## background
 GBoard requires the use of a keyboard (or keyboard emulator) for morse code input. They call it a "switch" but it's more than just a switch! As far as I can tell, Gboard doesn't support straight keys at all (only iambic).
 
